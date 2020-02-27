@@ -4,7 +4,6 @@ Eel
 Fish
 Goldfish
 Herring
-Narwhal
 Salmon
 Sardine
 Trout
