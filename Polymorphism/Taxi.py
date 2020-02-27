@@ -1,4 +1,4 @@
-import Transportation
+from Transportation import Transportation
 
 class Taxi(Transportation):
    def __init(self, start, end, distance):

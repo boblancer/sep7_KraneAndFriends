@@ -1,3 +1,7 @@
+from Walk import Walk
+from Taxi import Taxi
+from Train import Train
+
 travel_cost = 0
 
 trip = [ Walk("KMITL","KMITL SCB Bank",0.6),
@@ -7,4 +11,4 @@ trip = [ Walk("KMITL","KMITL SCB Bank",0.6),
 
 for travel in trip:
    travel_cost += travel.find_cost()
-print travel_cost
+print(travel_cost)
