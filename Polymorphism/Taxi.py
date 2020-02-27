@@ -1,4 +1,4 @@
-from Polymorphism.incomplete_code import Transportation
+import Transportation
 
 class Taxi(Transportation):
    def __init(self, start, end, distance):
